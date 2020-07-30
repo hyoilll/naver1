@@ -1,0 +1,15 @@
+@import "header.css";
+@import "main.css";
+@import "footer.css";
+
+body {
+  padding: 0px;
+  margin: 15px 190px;
+  width: 1130px;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
