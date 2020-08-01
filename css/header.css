@@ -1,10 +1,14 @@
 .header {
-  background-color: yellow;
 }
 
 .header .header_row:first-child {
-  margin-bottom: 25px;
   font-size: 12px;
+}
+
+.header_row:first-child,
+.header_row:nth-child(2) {
+  width: 78%;
+  margin: 0px auto;
 }
 
 .header .header_row:first-child ul {
@@ -24,11 +28,20 @@
 .header .header_row:nth-child(2) {
   display: flex;
   height: 55px;
-  width: 100%;
+  padding: 25px 0px 50px 0px;
 }
 
 .header .header_row:nth-child(2) .header-logo {
   width: 240px;
+}
+
+.header .header_row:nth-child(2) .header-logo a {
+  background-image: url("../image/sp_search.png");
+  background-repeat: no-repeat;
+  background-position: 6px -4px;
+  width: 90%;
+  height: 100%;
+  display: inline-block;
 }
 
 .header .header_row:nth-child(2) form {
@@ -41,20 +54,58 @@
   height: 100%;
   width: 580px;
   padding: 0px;
-  border: 1px solid rgb(31, 218, 40);
+  border: 2px solid rgb(31, 218, 40);
   outline: none;
   font-size: 20px;
 }
 
 .header .header_row:nth-child(2) form button {
   background-color: rgb(31, 218, 40);
-  height: 55px;
-  width: 50px;
+  height: 56px;
+  width: 51px;
   top: 1px;
-  right: -1px;
+  right: -2px;
   position: absolute;
   text-align: center;
   border: none;
   color: white;
   outline: none;
+}
+
+.header_row:last-child {
+  border-top: 1px solid rgb(194, 198, 203);
+  border-bottom: 1px solid rgb(194, 198, 203);
+  box-shadow: 5px 5px 8px -7px grey;
+}
+
+.header_row:last-child .nav-item {
+  width: 78%;
+  margin: 0 auto;
+  padding: 8px 0px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+.header_row:last-child div ul {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.header_row:last-child div ul li a {
+  margin-right: 5px;
+  background-image: url(../image/sp_nav.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 29px;
+  height: 19px;
+}
+
+.header_row:last-child div ul li:nth-child(1) a {
+  background-position: 3px -283px;
+}
+
+.header_row:last-child div ul li:nth-child(2) a {
+  background-position: -278px -50px;
 }
