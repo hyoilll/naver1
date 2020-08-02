@@ -1,14 +1,17 @@
-.header {
-}
-
 .header .header_row:first-child {
   font-size: 12px;
 }
 
 .header_row:first-child,
-.header_row:nth-child(2) {
+.header_row:nth-child(2),
+.header_row:last-child .nav-item {
   width: 78%;
   margin: 0px auto;
+  max-width: 1130px;
+}
+.header_row:last-child {
+  margin: 0px auto;
+  width: 100%;
 }
 
 .header .header_row:first-child ul {

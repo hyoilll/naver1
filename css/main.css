@@ -2,15 +2,18 @@ main .container {
   display: flex;
   width: 78%;
   margin: 0 auto;
+  max-width: 1130px;
 }
 
 main .container .left {
   width: 63%;
+  max-width: 750px;
   margin-right: 20px;
 }
 
 main .container .right {
   width: 35%;
+  max-width: 350px;
 }
 
 main .container .left .adver {
