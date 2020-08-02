@@ -76,6 +76,7 @@
   border-top: 1px solid rgb(194, 198, 203);
   border-bottom: 1px solid rgb(194, 198, 203);
   box-shadow: 5px 5px 8px -7px grey;
+  width: 100%;
 }
 
 .header_row:last-child .nav-item {
@@ -104,8 +105,95 @@
 
 .header_row:last-child div ul li:nth-child(1) a {
   background-position: 3px -283px;
+  width: 29px;
 }
 
 .header_row:last-child div ul li:nth-child(2) a {
   background-position: -278px -50px;
+  width: 29px;
+}
+
+.header_row:last-child div ul li:nth-child(3) a {
+  background-position: -100px -180px;
+  width: 40px;
+}
+
+.header_row:last-child div ul li:nth-child(4) a {
+  background-position: -100px -154px;
+  width: 40px;
+}
+
+.header_row:last-child div ul li:nth-child(5) a {
+  background-position: -279px -154px;
+  width: 29px;
+}
+
+.header_row:last-child div ul li:nth-child(6) a {
+  background-position: -68px -283px;
+  width: 29px;
+}
+
+.header_row:last-child div ul li:nth-child(7) a {
+  background-position: -122px -128px;
+  width: 40px;
+}
+
+.header_row:last-child div ul li:nth-child(8) a {
+  background-position: -279px -205px;
+  width: 29px;
+}
+
+.header_row:last-child div ul li:nth-child(9) a {
+  background-position: -129px -101px;
+  width: 29px;
+}
+
+.header_row:last-child div ul li:nth-child(10) a {
+  background-position: -36px -257px;
+  width: 29px;
+}
+
+.header_row:last-child div ul li:nth-child(11) a {
+  background-position: -151px -153px;
+  width: 40px;
+}
+
+.header_row:last-child div ul li:nth-child(12) a {
+  background-position: -279px -127px;
+  width: 29px;
+}
+
+.header_row:last-child div ul li:nth-child(13) a {
+  background-position: -234px -230px;
+  width: 29px;
+}
+
+.header_row:last-child div ul li:nth-child(14) a {
+  background-position: -71px -256px;
+  width: 29px;
+}
+
+.header_row:last-child div ul li:nth-child(15) a {
+  background-position: -139px -75px;
+  width: 17px;
+}
+
+.header_row:last-child div ul li:nth-child(16) a {
+  background-position: -279px 3px;
+  width: 29px;
+}
+
+.header_row:last-child div ul li:nth-child(17) a {
+  background-position: 3px -100px;
+  width: 60px;
+}
+
+.header_row:last-child .header-rank {
+  display: flex;
+  justify-content: space-between;
+  width: 18%;
+}
+
+.header_row:last-child .header-rank .rank {
+  color: rgb(25, 206, 96);
 }

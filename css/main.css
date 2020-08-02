@@ -1,0 +1,165 @@
+main .container {
+  display: flex;
+  width: 78%;
+  margin: 0 auto;
+}
+
+main .container .left {
+  width: 63%;
+  margin-right: 20px;
+}
+
+main .container .right {
+  width: 35%;
+}
+
+main .container .left .adver {
+  margin-top: 20px;
+}
+
+main .container .left .adver .adver_img {
+  width: 100%;
+}
+
+main .container .left .news {
+  border: 1px solid rgb(196, 193, 193);
+  background-color: rgb(241, 237, 237);
+  padding: 15px;
+  margin: 10px 0px;
+}
+
+main .container .left .news .news_title,
+main .container .left .hot-clip .hot-clip_guide,
+main .container .left .table .table_guide,
+main .container .left .hot-clip .hot-clip_menu ul,
+main .container .left .hot-clip .hot-clip_content {
+  display: flex;
+  justify-content: space-between;
+}
+
+main .container .left .news .news_title .news_nav ul,
+main .container .left .table .table_guide ul,
+main .container .left .hot-clip .hot-clip_guide ul,
+main .container .left .hot-clip .hot-clip_nav ul {
+  display: flex;
+}
+
+main .container .left .news .news_title .news_nav ul li,
+main .container .left .table .table_guide ul li {
+  margin-left: 10px;
+}
+
+main .container .left .table .table_content {
+  margin: 10px 0px 20px 0px;
+}
+
+main .container .left .table .table_content table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+main .container .left .table .table_content td {
+  border: 1px solid rgb(196, 193, 193);
+  width: 130px;
+  height: 65px;
+}
+
+main .container .left .table .table_content td .img {
+  background-image: url(../image/052.png);
+  width: 100%;
+  height: 25px;
+  background-size: 80px;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+main
+  .container
+  .left
+  .hot-clip
+  .hot-clip_guide
+  .hot-clip_title
+  span:first-child {
+  font-weight: bold;
+}
+
+main
+  .container
+  .left
+  .hot-clip
+  .hot-clip_guide
+  .hot-clip_title
+  span:last-child {
+  font-size: 12px;
+  color: rgb(119, 119, 119);
+}
+
+main
+  .container
+  .left
+  .hot-clip
+  .hot-clip_guide
+  .hot-clip_setting
+  ul
+  li:last-child {
+  margin-left: 10px;
+}
+
+main .container .left .hot-clip .hot-clip_menu ul li {
+  width: 30%;
+  height: 50px;
+  border: 1px solid rgb(196, 193, 193);
+}
+
+main .container .left .hot-clip .hot-clip_menu {
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+  font-size: 15px;
+  border-collapse: collapse;
+  margin: 20px 0px;
+}
+
+main .container .left .hot-clip .hot-clip_content .col {
+  width: 48%;
+}
+
+main .container .left .hot-clip .hot-clip_content .col video {
+  width: 100%;
+  height: 180px;
+}
+
+main .container .left .hot-clip .hot-clip_content .col .content {
+  text-align: center;
+  font-weight: bold;
+}
+
+main .container .left .hot-clip .hot-clip_nav {
+  border: 1px solid rgb(196, 193, 193);
+  background-color: rgb(241, 237, 237);
+  padding: 15px;
+  margin: 20px 0px;
+}
+
+main .container .left .hot-clip .hot-clip_nav ul li {
+  margin-right: 20px;
+}
+
+main .container .left .hot-clip .hot-clip_nav ul li:nth-child(2) {
+  color: rgb(196, 193, 193);
+}
+
+main .container .left .hot-clip .hot-clip_highlight .items_row {
+  border-bottom: 1px solid rgb(196, 193, 193);
+  margin-bottom: 10px;
+}
+
+main .container .left .hot-clip .hot-clip_highlight .items_row .item {
+  display: inline-block;
+  margin-right: 11px;
+  margin-bottom: 40px;
+}
+main .container .left .hot-clip .hot-clip_highlight .items_row .item img {
+  width: 234px;
+}
