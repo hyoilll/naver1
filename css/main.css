@@ -275,4 +275,111 @@ main .container .right .weather .area .moveBtn .rightArrow {
 main .container .right .eventAdver img {
   width: 350px;
   height: 200px;
+  margin-bottom: 20px;
+}
+
+main .container .right .shopping .shopping_guide {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+main .container .right .shopping .shopping_guide ul {
+  display: flex;
+}
+
+main .container .right .shopping .shopping_guide ul li {
+  margin-left: 10px;
+}
+
+main .container .right .shopping .shopping_content .nav {
+  border: 1px solid rgb(196, 193, 193);
+  background-color: rgb(241, 237, 237);
+}
+
+main .container .right .shopping .shopping_content .nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 14px;
+  padding: 10px;
+}
+
+main .container .right .shopping .shopping_content .nav ul li {
+  margin: 3px 4px;
+  cursor: pointer;
+}
+
+main .container .right .shopping .shopping_content .ware img {
+  width: 105px;
+  height: 150px;
+  border-radius: 5px;
+}
+
+main .container .right .shopping .shopping_content .ware {
+  border: 1px solid rgb(196, 193, 193);
+  padding: 10px 0px 0px 0px;
+}
+
+main .container .right .shopping .shopping_content .ware .ware_page {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+main .container .right .shopping .shopping_content .ware .ware_page .moveBtn {
+  margin: 0px 10px;
+  display: flex;
+}
+
+main
+  .container
+  .right
+  .shopping
+  .shopping_content
+  .ware
+  .ware_page
+  .moveBtn
+  .leftArrow,
+main
+  .container
+  .right
+  .shopping
+  .shopping_content
+  .ware
+  .ware_page
+  .moveBtn
+  .rightArrow {
+  border: 1px solid rgb(196, 193, 193);
+  display: inline-block;
+  width: 40px;
+  padding: 5px 0px;
+  text-align: center;
+  cursor: pointer;
+}
+
+main .container .right .shopping .shopping_content .ware .ware_page .pageNum {
+  display: flex;
+  align-items: center;
+}
+
+main .container .right .shopping .shopping_content .ware .ware_content {
+  text-align: center;
+}
+
+main .container .right .shopping .shopping_content .ware .ware_content ul li {
+  display: inline-block;
+}
+
+main
+  .container
+  .right
+  .shopping
+  .shopping_content
+  .ware
+  .ware_content
+  ul
+  li
+  span {
+  font-size: 13px;
 }
