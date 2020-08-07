@@ -1,0 +1,67 @@
+footer {
+  border-top: 1px solid rgb(196, 193, 193);
+  background-color: rgb(241, 237, 237);
+}
+
+footer > div {
+  width: 78%;
+  margin: 0 auto;
+  max-width: 1130px;
+}
+
+footer .row {
+  padding: 20px;
+}
+
+footer .notice,
+footer .anotherInfo .another_menu > div,
+footer .anotherInfo .another_menu > div > ul,
+footer .corp ul {
+  display: flex;
+}
+
+footer .anotherInfo .another_menu > div > ul li,
+footer .corp ul li {
+  margin-right: 15px;
+}
+
+footer .notice {
+  margin-top: 20px;
+  border-top: 1px solid rgb(196, 193, 193);
+  border-bottom: 1px solid rgb(196, 193, 193);
+  justify-content: space-between;
+}
+
+footer .anotherInfo {
+  border-bottom: 1px solid rgb(196, 193, 193);
+}
+
+footer .notice .notice_title .content {
+  margin-left: 10px;
+  color: rgb(170, 168, 168);
+}
+
+footer .anotherInfo .another_menu > div {
+  margin: 5px 0px;
+}
+
+footer .anotherInfo .another_menu > div > div {
+  width: 100px;
+}
+
+footer .anotherInfo .another_menu ul {
+  margin-left: 10px;
+  color: rgb(170, 168, 168);
+}
+
+footer .corp {
+  padding-bottom: 50px;
+}
+
+footer .corp ul {
+  color: rgb(170, 168, 168);
+}
+
+footer .corp ul li:last-child {
+  color: black;
+}
